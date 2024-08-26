@@ -1,0 +1,63 @@
+<mjml>
+  <mj-head>
+    <mj-preview>OTP for email confirmation</mj-preview>
+    <mj-font
+      name="Moderustic"
+      href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap"
+    />
+    <mj-attributes>
+      <mj-all font-family="Moderustic" />
+    </mj-attributes>
+    <mj-style> p{ font-size:16px; margin:0px; margin-bottom: 12px;} </mj-style>
+  </mj-head>
+  <mj-body background-color="#fafafa">
+    <mj-wrapper full-width="full-width" padding="16px">
+      <mj-section padding="16px" background-color="#fff" border-radius="8px">
+        <mj-column width="100%" padding="32px">
+          <mj-image
+            src="./otp-logo.png"
+            alt="LogoIpsum"
+            align="center"
+            width="180px"
+            padding-bottom="16px"
+          />
+          <mj-text padding="0" align="center">
+            <h1 style="margin: 16px 0px">Please confirm your email</h1>
+            <p>Use this code to confirm your email and complete signup.</p>
+          </mj-text>
+        </mj-column>
+        <mj-column
+          padding="16px"
+          background-color="#ebe3ff"
+          border-radius="8px"
+          width="245px"
+        >
+          <mj-text
+            letter-spacing="16px"
+            font-size="32px"
+            font-weight="700"
+            line-height="32px"
+            align="center"
+            padding="0"
+          >
+            <p
+              style="
+                font-size: 32px;
+                margin: 0px;
+                margin-right: -16px;
+                padding: 0px;
+              "
+            >
+              123456
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column width="100%" padding-top="16px">
+          <mj-text align="center" color="#555">
+            <p>This code is valid for 15 minutes.</p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
