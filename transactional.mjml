@@ -1,0 +1,196 @@
+<mjml>
+  <mj-head>
+    <mj-preview>LogoIpsum Order Confirmation</mj-preview>
+    <mj-attributes>
+      <mj-font
+        name="Inter"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      />
+      <mj-text font-family="Inter, Arial" color="#363636" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#ccc">
+    <mj-wrapper full-width="full-width" padding="16px">
+      <mj-section padding="32px 24px" background-color="#fff">
+        <mj-column width="100%" padding="0">
+          <mj-image
+            src="./transactional-logo.png"
+            alt="LogoIpsum"
+            align="left"
+            width="130px"
+            padding="0"
+            padding-bottom="16px"
+          />
+          <mj-text padding="0" align="left">
+            <p
+              style="
+                font-size: 20px;
+                line-height: 30px;
+                margin: 0px;
+                padding-bottom: 10px;
+              "
+            >
+              Hi <strong>Abhijith A S</strong>,
+            </p>
+            <h1 style="font-size: 26px; line-height: 32px; margin: 0px">
+              Thank you for ordering from ABC Restaurant
+            </h1>
+          </mj-text>
+          <mj-spacer height="30px" />
+        </mj-column>
+        <mj-column width="100%" padding="0">
+          <mj-divider border-width="1px" border-color="#ccc" padding="0" />
+        </mj-column>
+        <mj-group width="100%">
+          <mj-column width="75%">
+            <mj-text
+              padding="24px 0"
+              font-size="18px"
+              line-height="22px"
+              font-weight="700"
+              align="left"
+            >
+              ORDER ID: 2814986935
+            </mj-text>
+          </mj-column>
+          <mj-column width="25%">
+            <mj-raw>
+              <td
+                align="right"
+                style="
+                  font-size: 0px;
+                  padding: 25px 0px;
+                  word-break: break-word;
+                "
+              >
+                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:520px;" ><![endif]-->
+                <div
+                  class="mj-column-per-100 mj-outlook-group-fix"
+                  style="
+                    font-size: 0;
+                    line-height: 0;
+                    display: inline-block;
+                    width: 100%;
+                    direction: ltr;
+                  "
+                >
+                  <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:top;width:390px;" ><![endif]-->
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    style="border-collapse: collapse; border-spacing: 0px"
+                  >
+                    <tbody>
+                      <tr>
+                        <td style="width: 16px" align="right">
+                          <img
+                            alt="checked icon"
+                            src="./check-icon.png"
+                            style="
+                              border: 0;
+                              display: block;
+                              outline: none;
+                              text-decoration: none;
+                              height: auto;
+                              width: 100%;
+                              font-size: 13px;
+                            "
+                            width="16"
+                            height="auto"
+                          />
+                        </td>
+                        <td
+                          align="right"
+                          style="
+                            font-size: 0px;
+                            padding: 0px;
+                            padding-left: 8px;
+                            word-break: break-word;
+                          "
+                        >
+                          <div
+                            style="
+                              font-family: Inter, Arial;
+                              font-size: 14px;
+                              line-height: 22px;
+                              text-align: right;
+                              color: #363636;
+                            "
+                          >
+                            Delivered
+                          </div>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </td>
+            </mj-raw>
+          </mj-column>
+        </mj-group>
+        <mj-column width="100%" padding="0">
+          <mj-divider border-width="1px" border-color="#ccc" padding="0" />
+        </mj-column>
+        <mj-group width="100%">
+          <mj-column width="15%" padding="20px 0">
+            <mj-image
+              src="./square-logo.png"
+              alt="ABC Restaurant"
+              width="32px"
+              padding="0px"
+            />
+          </mj-column>
+          <mj-column width="85%" padding="20px 0">
+            <mj-text
+              font-size="20px"
+              line-height="32px"
+              font-weight="600"
+              padding="0"
+              >ABC Restaurant</mj-text
+            >
+            <mj-text
+              font-size="16px"
+              line-height="24px"
+              font-weight="400"
+              padding="0"
+              color="#696969"
+              >NH Bypass Service Road, Near Landmark, Street, District</mj-text
+            >
+          </mj-column>
+        </mj-group>
+        <mj-column width="100%" padding="0">
+          <mj-divider
+            padding="0"
+            border-width="1px"
+            border-style="dashed"
+            border-color="#ccc"
+          />
+          <mj-text
+            padding="24px 0px 0px 0px"
+            font-size="16px"
+            line-height="24px"
+          >
+            3 X Kerala Paratha
+          </mj-text>
+          <mj-text
+            padding="10px 0px 0px 0px"
+            font-size="16px"
+            line-height="24px"
+          >
+            1 X Chicken Shawaya Quarter
+          </mj-text>
+          <mj-text
+            padding="10px 0px 0px 0px"
+            font-size="18px"
+            line-height="28px"
+            font-weight="600"
+          >
+            Total paid - ₹240.50
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
