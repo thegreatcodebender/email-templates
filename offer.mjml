@@ -1,22 +1,39 @@
 <mjml>
   <mj-head>
-    <mj-breakpoint width="320px" />
     <mj-preview>30% Off on All Summer Apparel!</mj-preview>
     <mj-attributes>
       <mj-font
         name="Inter"
         href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       />
-      <mj-all font-family="Inter, Arial" />
+      <mj-all font-family="Inter, Arial, sans-serif" />
       <mj-text color="#222" />
-      <mj-button color="#fff" font-weight="700" font-size="14px" background-color="#007DFC" align="left" padding="0px"/>
+      <mj-button css-class="btn-primary" color="#fff" font-weight="700" font-size="14px" background-color="#007DFC" align="left" padding="0px" border-radius="4px"/>
     </mj-attributes>
     <mj-breakpoint width="500px" />
     <mj-style>
+      .btn-primary a{
+        transition: all ease-in-out 300ms !important;
+      }
+      .btn-primary a:hover {
+        background-color: #FC8800 !important;
+      }
+      .btn-ghost a{
+        transition: all ease-in-out 300ms !important;
+      }
+      .btn-ghost a:hover {
+        color: #222222 !important;
+      }
+      .mobile-only{
+        display: none !important;
+      }
       @media only screen and (max-width: 501px){
         .desktop-only{
           display: none !important;
         }
+        .mobile-only{
+        display: inline-block !important;
+      }
       }
     </mj-style>
   </mj-head>
@@ -76,7 +93,7 @@
           </mj-text>
         </mj-column>
       </mj-section>
-      <mj-section padding="0px 16px" padding-top="16px" padding-right="0px" background-color="#fff">
+      <mj-section padding="0px 16px" padding-top="16px" padding-right="0px" background-color="#fff" css-class="desktop-only">
         <mj-column width="100%">
           <mj-text padding="0px" font-size="24px" font-weight="700" align="center" padding-bottom="16px">
             Featured items
@@ -141,6 +158,71 @@
         </mj-column>
 
       </mj-section>
+      <mj-section padding="0px 16px" padding-top="16px" padding-right="0px" background-color="#fff" css-class="mobile-only">
+        <mj-column width="100%">
+          <mj-text padding="0px" font-size="24px" font-weight="700" align="center" padding-bottom="16px">
+            Featured items
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="100%" padding="0px" padding-right="16px" padding-bottom="24px">
+          <mj-image
+            src="./assets/images/featured-1.png"
+            alt="T-shirts"
+            align="center"
+            padding="0px"
+            padding-bottom="16px"
+          />
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+            T-shirts
+          </mj-text>
+          <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
+            ₹349 <span style="color: #666666; padding-left: 4px;"><s>₹499<s></span>
+          </mj-text>
+          <mj-button href="https://example.com">
+            Buy Now
+          </mj-button>
+        </mj-column>
+        
+        <mj-column width="100%" padding="0px" padding-right="16px" padding-bottom="24px">
+          <mj-image
+            src="./assets/images/featured-2.png"
+            alt="T-shirts"
+            align="center"
+            padding="0px"
+            padding-bottom="16px"
+          />
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+            Hoodies
+          </mj-text>
+          <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
+            ₹489<span style="color: #666666; padding-left: 4px;"><s>₹699<s></span>
+          </mj-text>
+          <mj-button href="https://example.com">
+            Buy Now
+          </mj-button>
+        </mj-column>
+
+        <mj-column width="100%" padding="0px" padding-right="16px" padding-bottom="24px">
+          <mj-image
+            src="./assets/images/featured-3.png"
+            alt="T-shirts"
+            align="center"
+            padding="0px"
+            padding-bottom="16px"
+          />
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+            Footwear
+          </mj-text>
+          <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
+            ₹1,749 <span style="color: #666666; padding-left: 4px;"><s>₹2,499<s></span>
+          </mj-text>
+          <mj-button href="https://example.com">
+            Buy Now
+          </mj-button>
+        </mj-column>
+
+      </mj-section>
       <mj-section padding="0px" padding-bottom="24px" background-color="#fff">
         <mj-column padding="0px" width="30%" css-class="desktop-only">
           <mj-image
@@ -164,12 +246,12 @@
           </mj-text>
         </mj-column>
 
-        <mj-column width="100%" padding="16px" background-color="#DEEEFF">
+        <mj-column width="100%" padding="16px" background-color="#DEEEFF" border-radius="8px">
           <mj-text padding="0px" font-size="18px" font-weight="700" line-height="24px" align="left" padding-bottom="8px">
             Buy One, Get One Free on Selected Footwear!
           </mj-text>
           <mj-text padding="0px" font-size="14px" line-height="18px" align="left" padding-bottom="16px">
-            Choose from our exclusive range of sneakers and sandals
+            Choose from our exclusive range of sneakers and sandals.
           </mj-text>
           <mj-button href="https://example.com">
             Grab the offer
@@ -180,7 +262,7 @@
           <mj-spacer height="16px"/>
         </mj-column>
 
-        <mj-column width="100%" padding="16px" background-color="#DEEEFF">
+        <mj-column width="100%" padding="16px" background-color="#DEEEFF" border-radius="8px">
           <mj-text padding="0px" font-size="18px" font-weight="700" line-height="24px" align="left" padding-bottom="8px">
             20% Off on Your First Order
           </mj-text>
@@ -191,13 +273,96 @@
             Grab the offer
           </mj-button>
         </mj-column>
-        
       </mj-section>
+
       <mj-section padding="0px" background-color="#fff">
         <mj-column width="100%" padding="0px">
-          <mj-text padding="0px" font-size="24px" font-weight="700" line-height="32px" align="center" padding-bottom="16px">
+          <mj-text padding="0px" font-size="24px" font-weight="700" line-height="32px" align="center">
             What our customers say
           </mj-text>
+        </mj-column>
+
+        <mj-group width="100%">
+          <mj-column width="10%" padding="16px 8px 0px 16px">
+            <mj-image
+              src="./assets/images/quote-open.png"
+              alt="T-shirts"
+              align="left"
+              padding="0px"
+              padding-bottom="16px"
+            />
+          </mj-column>
+          <mj-column width="90%" padding="16px 16px 0px 8px">
+            <mj-text padding="0px" padding-top="8px" font-size="16px" line-height="24px" align="left">
+             I absolutely love the summer apparel I purchased! The quality is exceptional, and the fit is perfect. I received so many compliments at the beach. Highly recommend!
+            </mj-text>
+            <mj-text padding="0px" padding-top="8px" padding-bottom="16px" font-size="16px" font-weight="700" line-height="24px" align="left">
+              Jane D.
+            </mj-text>
+          </mj-column>
+          <mj-column width="100%" padding="0px">
+            <mj-spacer height="1px" container-background-color="#cccccc" />
+          </mj-column>
+        </mj-group>
+
+        <mj-group width="100%">
+          <mj-column width="10%" padding="16px 8px 0px 16px">
+            <mj-image
+              src="./assets/images/quote-open.png"
+              alt="T-shirts"
+              align="left"
+              padding="0px"
+              padding-bottom="16px"
+            />
+          </mj-column>
+          <mj-column width="90%" padding="16px 16px 0px 8px">
+            <mj-text padding="0px" padding-top="8px" font-size="16px" line-height="24px" align="left">
+             The buy one, get one free on footwear was an amazing deal! I got two pairs of shoes for the price of one, and they are so comfortable. I’ll definitely be back for more!
+            </mj-text>
+            <mj-text padding="0px" padding-top="8px" padding-bottom="16px" font-size="16px" font-weight="700" line-height="24px" align="left">
+              Mark T.
+            </mj-text>
+          </mj-column>
+          <mj-column width="100%" padding="0px">
+            <mj-spacer height="1px" container-background-color="#cccccc" />
+          </mj-column>
+        </mj-group>
+
+        <mj-group width="100%">
+          <mj-column width="10%" padding="16px 8px 0px 16px">
+            <mj-image
+              src="./assets/images/quote-open.png"
+              alt="T-shirts"
+              align="left"
+              padding="0px"
+              padding-bottom="16px"
+            />
+          </mj-column>
+          <mj-column width="90%" padding="16px 16px 0px 8px">
+            <mj-text padding="0px" padding-top="8px" font-size="16px" line-height="24px" align="left">
+             I was hesitant to try this store, but the 20% off my first order convinced me. I’m so glad I did! The customer service was fantastic, and my order arrived quickly. Love my new dress!
+            </mj-text>
+            <mj-text padding="0px" padding-top="8px" padding-bottom="16px" font-size="16px" font-weight="700" line-height="24px" align="left">
+              Emily Rick
+            </mj-text>
+          </mj-column>
+          <mj-column width="100%" padding="0px">
+            <mj-spacer height="1px" container-background-color="#cccccc" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section padding="0px" background-color="#fff">
+        <mj-column width="100%" padding="0px" padding-top="24px">
+          <mj-button align="center" href="https://example.com">
+            View all offers
+          </mj-button>
+        </mj-column>
+        <mj-column width="100%" padding="0px" padding-top="16px">
+          <mj-text padding="0px" padding-top="8px" color="#666666" font-size="14px" line-height="18px" align="center">
+             ©2024 eCom, All rights reserved.
+          </mj-text>
+          <mj-button css-class="btn-ghost" align="center" href="https://example.com" background-color="transparent" color="#666666" font-weight="400" text-decoration="underline">Unsubscribe</mj-button>
         </mj-column>
       </mj-section>
     </mj-wrapper>

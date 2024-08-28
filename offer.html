@@ -88,6 +88,16 @@
         width: 70% !important;
         max-width: 70%;
       }
+
+      .mj-column-per-10 {
+        width: 10% !important;
+        max-width: 10%;
+      }
+
+      .mj-column-per-90 {
+        width: 90% !important;
+        max-width: 90%;
+      }
     }
 
   </style>
@@ -122,6 +132,16 @@
       max-width: 70%;
     }
 
+    .moz-text-html .mj-column-per-10 {
+      width: 10% !important;
+      max-width: 10%;
+    }
+
+    .moz-text-html .mj-column-per-90 {
+      width: 90% !important;
+      max-width: 90%;
+    }
+
   </style>
   <style type="text/css">
     @media only screen and (max-width:499px) {
@@ -136,9 +156,33 @@
 
   </style>
   <style type="text/css">
+    .btn-primary a {
+      transition: all ease-in-out 300ms !important;
+    }
+
+    .btn-primary a:hover {
+      background-color: #FC8800 !important;
+    }
+
+    .btn-ghost a {
+      transition: all ease-in-out 300ms !important;
+    }
+
+    .btn-ghost a:hover {
+      color: #222222 !important;
+    }
+
+    .mobile-only {
+      display: none !important;
+    }
+
     @media only screen and (max-width: 501px) {
       .desktop-only {
         display: none !important;
+      }
+
+      .mobile-only {
+        display: inline-block !important;
       }
     }
 
@@ -187,7 +231,7 @@
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:12px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:13px;font-weight:700;line-height:1;text-align:left;color:#222222;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:13px;font-weight:700;line-height:1;text-align:left;color:#222222;">
                                                     <p style="
                 font-size: 16px;
                 line-height: 20px;
@@ -202,7 +246,7 @@
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:13px;line-height:1;text-align:left;color:#222222;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#222222;">
                                                     <div style="width:100%; background-color: #FC8800; height: 4px;">
                                                       <div></div>
                                                 </td>
@@ -214,7 +258,7 @@
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:13px;line-height:1;text-align:left;color:#222222;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#222222;">
                                                     <div style="width:80%; background-color: #FC8800; height: 4px;">
                                                       <div></div>
                                                 </td>
@@ -226,7 +270,7 @@
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:13px;line-height:1;text-align:left;color:#222222;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:13px;line-height:1;text-align:left;color:#222222;">
                                                     <div style="width:60%; background-color: #FC8800; height: 4px;">
                                                       <div></div>
                                                 </td>
@@ -288,7 +332,7 @@
                                             <tbody>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:16px;line-height:24px;text-align:left;color:#222222;">We’re excited to bring you our latest offers and exclusive discounts! At eCom, we value our customers and want to make your shopping experience even better. Check out our special deals below!</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#222222;">We’re excited to bring you our latest offers and exclusive discounts! At eCom, we value our customers and want to make your shopping experience even better. Check out our special deals below!</div>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -304,8 +348,8 @@
                           </tbody>
                         </table>
                       </div>
-                      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-                      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+                      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="desktop-only-outlook" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="desktop-only-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                      <div class="desktop-only" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
                           <tbody>
                             <tr>
@@ -316,7 +360,7 @@
                                     <tbody>
                                       <tr>
                                         <td align="center" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
-                                          <div style="font-family:Inter, Arial;font-size:24px;font-weight:700;line-height:1;text-align:center;color:#222222;">Featured items</div>
+                                          <div style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;text-align:center;color:#222222;">Featured items</div>
                                         </td>
                                       </tr>
                                     </tbody>
@@ -345,21 +389,21 @@
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:8px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">T-shirts</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">T-shirts</div>
                                                 </td>
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:10px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹349 <span style="color: #666666; padding-left: 4px;"><s>₹499<s></span></div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹349 <span style="color: #666666; padding-left: 4px;"><s>₹499<s></span></div>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                <td align="left" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
                                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                                     <tbody>
                                                       <tr>
-                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
-                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Buy Now </a>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Buy Now </a>
                                                         </td>
                                                       </tr>
                                                     </tbody>
@@ -396,21 +440,21 @@
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:8px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Hoodies</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Hoodies</div>
                                                 </td>
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:10px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹489<span style="color: #666666; padding-left: 4px;"><s>₹699<s></span></div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹489<span style="color: #666666; padding-left: 4px;"><s>₹699<s></span></div>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                <td align="left" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
                                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                                     <tbody>
                                                       <tr>
-                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
-                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Buy Now </a>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Buy Now </a>
                                                         </td>
                                                       </tr>
                                                     </tbody>
@@ -447,21 +491,198 @@
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:8px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Footwear</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Footwear</div>
                                                 </td>
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:10px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹1,749 <span style="color: #666666; padding-left: 4px;"><s>₹2,499<s></span></div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹1,749 <span style="color: #666666; padding-left: 4px;"><s>₹2,499<s></span></div>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                <td align="left" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
                                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                                     <tbody>
                                                       <tr>
-                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
-                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Buy Now </a>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Buy Now </a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]></td></tr></table><![endif]-->
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="mobile-only-outlook" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="mobile-only-outlook" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                      <div class="mobile-only" style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+                          <tbody>
+                            <tr>
+                              <td style="direction:ltr;font-size:0px;padding:0px 16px;padding-right:0px;padding-top:16px;text-align:center;">
+                                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:584px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align="center" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
+                                          <div style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;line-height:1;text-align:center;color:#222222;">Featured items</div>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:584px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0px;padding-right:16px;padding-bottom:24px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="width:568px;">
+                                                          <img alt="T-shirts" src="./assets/images/featured-1.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="568" height="auto" />
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" style="font-size:0px;padding:0px;padding-bottom:8px;word-break:break-word;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">T-shirts</div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" style="font-size:0px;padding:0px;padding-bottom:10px;word-break:break-word;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹349 <span style="color: #666666; padding-left: 4px;"><s>₹499<s></span></div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Buy Now </a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:584px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0px;padding-right:16px;padding-bottom:24px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="width:568px;">
+                                                          <img alt="T-shirts" src="./assets/images/featured-2.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="568" height="auto" />
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" style="font-size:0px;padding:0px;padding-bottom:8px;word-break:break-word;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Hoodies</div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" style="font-size:0px;padding:0px;padding-bottom:10px;word-break:break-word;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹489<span style="color: #666666; padding-left: 4px;"><s>₹699<s></span></div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Buy Now </a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:584px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0px;padding-right:16px;padding-bottom:24px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td style="width:568px;">
+                                                          <img alt="T-shirts" src="./assets/images/featured-3.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="568" height="auto" />
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" style="font-size:0px;padding:0px;padding-bottom:8px;word-break:break-word;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Footwear</div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" style="font-size:0px;padding:0px;padding-bottom:10px;word-break:break-word;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:500;line-height:18px;text-align:left;color:#0A8350;">₹1,749 <span style="color: #666666; padding-left: 4px;"><s>₹2,499<s></span></div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="left" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Buy Now </a>
                                                         </td>
                                                       </tr>
                                                     </tbody>
@@ -525,7 +746,7 @@
                                             <tbody>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px 16px;padding-top:8px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:16px;line-height:24px;text-align:left;color:#222222;">Get ready for the summer with our stylish collection of summer apparel. Enjoy 30% off on all summer clothing items, from breezy dresses to comfy shorts.</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#222222;">Get ready for the summer with our stylish collection of summer apparel. Enjoy 30% off on all summer clothing items, from breezy dresses to comfy shorts.</div>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -557,7 +778,7 @@
                                             <tbody>
                                               <tr>
                                                 <td align="center" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:24px;font-weight:700;line-height:32px;text-align:center;color:#222222;">Limited-Time Offers: Don’t Miss Out!</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;line-height:32px;text-align:center;color:#222222;">Limited-Time Offers: Don’t Miss Out!</div>
                                                 </td>
                                               </tr>
                                             </tbody>
@@ -572,26 +793,26 @@
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td style="background-color:#DEEEFF;vertical-align:top;padding:16px;">
+                                        <td style="background-color:#DEEEFF;border-radius:8px;vertical-align:top;padding:16px;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                             <tbody>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:8px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Buy One, Get One Free on Selected Footwear!</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Buy One, Get One Free on Selected Footwear!</div>
                                                 </td>
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:14px;line-height:18px;text-align:left;color:#222222;">Choose from our exclusive range of sneakers and sandals</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;line-height:18px;text-align:left;color:#222222;">Choose from our exclusive range of sneakers and sandals.</div>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                <td align="left" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
                                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                                     <tbody>
                                                       <tr>
-                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
-                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Grab the offer </a>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Grab the offer </a>
                                                         </td>
                                                       </tr>
                                                     </tbody>
@@ -630,26 +851,26 @@
                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
                                     <tbody>
                                       <tr>
-                                        <td style="background-color:#DEEEFF;vertical-align:top;padding:16px;">
+                                        <td style="background-color:#DEEEFF;border-radius:8px;vertical-align:top;padding:16px;">
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                             <tbody>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:8px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">20% Off on Your First Order</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:18px;font-weight:700;line-height:24px;text-align:left;color:#222222;">20% Off on Your First Order</div>
                                                 </td>
                                               </tr>
                                               <tr>
                                                 <td align="left" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:14px;line-height:18px;text-align:left;color:#222222;">New customers get an additional 20% off their first purchase.</div>
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;line-height:18px;text-align:left;color:#222222;">New customers get an additional 20% off their first purchase.</div>
                                                 </td>
                                               </tr>
                                               <tr>
-                                                <td align="left" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                <td align="left" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
                                                   <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
                                                     <tbody>
                                                       <tr>
-                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:3px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
-                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:3px;" target="_blank"> Grab the offer </a>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Grab the offer </a>
                                                         </td>
                                                       </tr>
                                                     </tbody>
@@ -684,8 +905,312 @@
                                           <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
                                             <tbody>
                                               <tr>
-                                                <td align="center" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
-                                                  <div style="font-family:Inter, Arial;font-size:24px;font-weight:700;line-height:32px;text-align:center;color:#222222;">What our customers say</div>
+                                                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:24px;font-weight:700;line-height:32px;text-align:center;color:#222222;">What our customers say</div>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]></td><td class="" style="width:600px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+                                  <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:top;width:60px;" ><![endif]-->
+                                  <div class="mj-column-per-10 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:16px 8px 0px 16px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="width:36px;">
+                                                            <img alt="T-shirts" src="./assets/images/quote-open.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="36" height="auto" />
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td><td style="vertical-align:top;width:540px;" ><![endif]-->
+                                  <div class="mj-column-per-90 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:90%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:16px 16px 0px 8px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-top:8px;word-break:break-word;">
+                                                    <div style="font-family:Inter, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#222222;">I absolutely love the summer apparel I purchased! The quality is exceptional, and the fit is perfect. I received so many compliments at the beach. Highly recommend!</div>
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-top:8px;padding-bottom:16px;word-break:break-word;">
+                                                    <div style="font-family:Inter, Arial, sans-serif;font-size:16px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Jane D.</div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td><td style="vertical-align:top;width:600px;" ><![endif]-->
+                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:0px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="background:#cccccc;font-size:0px;word-break:break-word;">
+                                                    <div style="height:1px;line-height:1px;">&#8202;</div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                                </div>
+                                <!--[if mso | IE]></td><td class="" style="width:600px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+                                  <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:top;width:60px;" ><![endif]-->
+                                  <div class="mj-column-per-10 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:16px 8px 0px 16px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="width:36px;">
+                                                            <img alt="T-shirts" src="./assets/images/quote-open.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="36" height="auto" />
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td><td style="vertical-align:top;width:540px;" ><![endif]-->
+                                  <div class="mj-column-per-90 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:90%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:16px 16px 0px 8px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-top:8px;word-break:break-word;">
+                                                    <div style="font-family:Inter, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#222222;">The buy one, get one free on footwear was an amazing deal! I got two pairs of shoes for the price of one, and they are so comfortable. I’ll definitely be back for more!</div>
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-top:8px;padding-bottom:16px;word-break:break-word;">
+                                                    <div style="font-family:Inter, Arial, sans-serif;font-size:16px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Mark T.</div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td><td style="vertical-align:top;width:600px;" ><![endif]-->
+                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:0px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="background:#cccccc;font-size:0px;word-break:break-word;">
+                                                    <div style="height:1px;line-height:1px;">&#8202;</div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                                </div>
+                                <!--[if mso | IE]></td><td class="" style="width:600px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
+                                  <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:top;width:60px;" ><![endif]-->
+                                  <div class="mj-column-per-10 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:10%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:16px 8px 0px 16px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-bottom:16px;word-break:break-word;">
+                                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td style="width:36px;">
+                                                            <img alt="T-shirts" src="./assets/images/quote-open.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="36" height="auto" />
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td><td style="vertical-align:top;width:540px;" ><![endif]-->
+                                  <div class="mj-column-per-90 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:90%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:16px 16px 0px 8px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-top:8px;word-break:break-word;">
+                                                    <div style="font-family:Inter, Arial, sans-serif;font-size:16px;line-height:24px;text-align:left;color:#222222;">I was hesitant to try this store, but the 20% off my first order convinced me. I’m so glad I did! The customer service was fantastic, and my order arrived quickly. Love my new dress!</div>
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="left" style="font-size:0px;padding:0px;padding-top:8px;padding-bottom:16px;word-break:break-word;">
+                                                    <div style="font-family:Inter, Arial, sans-serif;font-size:16px;font-weight:700;line-height:24px;text-align:left;color:#222222;">Emily Rick</div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td><td style="vertical-align:top;width:600px;" ><![endif]-->
+                                  <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                    <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="vertical-align:top;padding:0px;">
+                                            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td style="background:#cccccc;font-size:0px;word-break:break-word;">
+                                                    <div style="height:1px;line-height:1px;">&#8202;</div>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                  <!--[if mso | IE]></td></tr></table><![endif]-->
+                                </div>
+                                <!--[if mso | IE]></td></tr></table><![endif]-->
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="600px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+                      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+                          <tbody>
+                            <tr>
+                              <td style="direction:ltr;font-size:0px;padding:0px;text-align:center;">
+                                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0px;padding-top:24px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center" class="btn-primary" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" bgcolor="#007DFC" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:#007DFC;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:#007DFC;color:#ffffff;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> View all offers </a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                                <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+                                <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+                                    <tbody>
+                                      <tr>
+                                        <td style="vertical-align:top;padding:0px;padding-top:16px;">
+                                          <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center" style="font-size:0px;padding:0px;padding-top:8px;word-break:break-word;">
+                                                  <div style="font-family:Inter, Arial, sans-serif;font-size:14px;line-height:18px;text-align:center;color:#666666;">©2024 eCom, All rights reserved.</div>
+                                                </td>
+                                              </tr>
+                                              <tr>
+                                                <td align="center" class="btn-ghost" style="font-size:0px;padding:0px;word-break:break-word;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;line-height:100%;">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" bgcolor="transparent" role="presentation" style="border:none;border-radius:4px;cursor:auto;mso-padding-alt:10px 25px;background:transparent;" valign="middle">
+                                                          <a href="https://example.com" style="display:inline-block;background:transparent;color:#666666;font-family:Inter, Arial, sans-serif;font-size:14px;font-weight:400;line-height:120%;margin:0;text-decoration:underline;text-transform:none;padding:10px 25px;mso-padding-alt:0px;border-radius:4px;" target="_blank"> Unsubscribe </a>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
                                                 </td>
                                               </tr>
                                             </tbody>
