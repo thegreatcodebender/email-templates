@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
     <mj-breakpoint width="320px" />
-    <mj-preview>Order Confirmation from ShopEasy</mj-preview>
+    <mj-preview>Order Confirmation from eCom</mj-preview>
     <mj-attributes>
       <mj-font
         name="Inter"
