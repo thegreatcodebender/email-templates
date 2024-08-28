@@ -15,7 +15,7 @@
       <mj-section padding="16px" background-color="#fff" border-radius="8px">
         <mj-column width="100%" padding="32px">
           <mj-image
-            src="./otp-logo.png"
+            src="./assets/images/otp-logo.png"
             alt="LogoIpsum"
             align="center"
             width="180px"

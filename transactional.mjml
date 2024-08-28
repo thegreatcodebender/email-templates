@@ -15,7 +15,7 @@
       <mj-section padding="32px 24px" background-color="#fff">
         <mj-column width="100%" padding="0">
           <mj-image
-            src="./transactional-logo.png"
+            src="./assets/images/transactional-logo.png"
             alt="ShopEasy"
             align="left"
             width="130px"
@@ -52,7 +52,7 @@
         <mj-group width="100%">
           <mj-column width="33.33%">
             <mj-image
-              src="./check-icon.png"
+              src="./assets/images/check-icon.png"
               alt="checked"
               align="center"
               width="32px"
@@ -63,7 +63,7 @@
           </mj-column>
           <mj-column width="33.33%">
             <mj-image
-              src="./empty-icon.png"
+              src="./assets/images/empty-icon.png"
               alt="checked"
               align="center"
               width="32px"
@@ -74,7 +74,7 @@
           </mj-column>
           <mj-column width="33.33%">
             <mj-image
-              src="./empty-icon.png"
+              src="./assets/images/empty-icon.png"
               alt="checked"
               align="center"
               width="32px"
