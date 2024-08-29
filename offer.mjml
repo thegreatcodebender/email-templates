@@ -1,5 +1,6 @@
 <mjml>
   <mj-head>
+    <mj-title>30% Off on All Summer Apparel! - eCom</mj-title>
     <mj-preview>30% Off on All Summer Apparel!</mj-preview>
     <mj-attributes>
       <mj-font
@@ -108,7 +109,7 @@
             padding="0px"
             padding-bottom="16px"
           />
-          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="27px" >
             T-shirts
           </mj-text>
           <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
@@ -127,7 +128,7 @@
             padding="0px"
             padding-bottom="16px"
           />
-          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="26px" >
             Hoodies
           </mj-text>
           <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
@@ -146,7 +147,7 @@
             padding="0px"
             padding-bottom="16px"
           />
-          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="26px" >
             Footwear
           </mj-text>
           <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
@@ -173,7 +174,7 @@
             padding="0px"
             padding-bottom="16px"
           />
-          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="26px" >
             T-shirts
           </mj-text>
           <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
@@ -192,7 +193,7 @@
             padding="0px"
             padding-bottom="16px"
           />
-          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="26px" >
             Hoodies
           </mj-text>
           <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
@@ -211,7 +212,7 @@
             padding="0px"
             padding-bottom="16px"
           />
-          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="24px" >
+          <mj-text padding="0px" padding-bottom="8px" font-size="18px" font-weight="700" line-height="26px" >
             Footwear
           </mj-text>
           <mj-text padding="0px" padding-bottom="10px" font-size="14px" font-weight="500" line-height="18px" color="#0A8350" >
@@ -247,7 +248,7 @@
         </mj-column>
 
         <mj-column width="100%" padding="16px" background-color="#DEEEFF" border-radius="8px">
-          <mj-text padding="0px" font-size="18px" font-weight="700" line-height="24px" align="left" padding-bottom="8px">
+          <mj-text padding="0px" font-size="18px" font-weight="700" line-height="26px" align="left" padding-bottom="8px">
             Buy One, Get One Free on Selected Footwear!
           </mj-text>
           <mj-text padding="0px" font-size="14px" line-height="18px" align="left" padding-bottom="16px">
@@ -263,7 +264,7 @@
         </mj-column>
 
         <mj-column width="100%" padding="16px" background-color="#DEEEFF" border-radius="8px">
-          <mj-text padding="0px" font-size="18px" font-weight="700" line-height="24px" align="left" padding-bottom="8px">
+          <mj-text padding="0px" font-size="18px" font-weight="700" line-height="26px" align="left" padding-bottom="8px">
             20% Off on Your First Order
           </mj-text>
           <mj-text padding="0px" font-size="14px" line-height="18px" align="left" padding-bottom="16px">

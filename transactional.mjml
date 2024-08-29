@@ -1,6 +1,7 @@
 <mjml>
   <mj-head>
     <mj-breakpoint width="320px" />
+    <mj-title>Order Confirmation from eCom</mj-title>
     <mj-preview>Order Confirmation from eCom</mj-preview>
     <mj-attributes>
       <mj-font
@@ -16,7 +17,7 @@
         <mj-column width="100%" padding="0">
           <mj-image
             src="./assets/images/transactional-logo.png"
-            alt="ShopEasy"
+            alt="eCom"
             align="left"
             width="130px"
             padding="0"
@@ -43,7 +44,7 @@
           <mj-text
             padding="16px 0px 24px 0px"
             font-size="14px"
-            line-height="20px"
+            line-height="18px"
             align="left"
             >Order No <strong>#1234567890</strong></mj-text
           >

@@ -1,5 +1,6 @@
 <mjml>
   <mj-head>
+    <mj-title>OTP for email confirmation</mj-title>
     <mj-preview>OTP for email confirmation</mj-preview>
     <mj-attributes>
       <mj-font
@@ -22,7 +23,9 @@
             padding-bottom="16px"
           />
           <mj-text padding="0" align="center">
-            <h1 style="margin: 16px 0px">Please confirm your email</h1>
+            <h1 style="margin: 16px 0px; line-height: 20px">
+              Please confirm your email
+            </h1>
             <p>Use this code to confirm your email and complete signup.</p>
           </mj-text>
         </mj-column>
